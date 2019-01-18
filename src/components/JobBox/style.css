@@ -1,0 +1,5 @@
+.Select {
+  text-align: left;
+  margin: auto; }
+  .Select .Select-menu-outer {
+    z-index: 100; }

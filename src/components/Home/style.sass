@@ -1,0 +1,76 @@
+$break-small: 400px
+$break-large: 768px
+
+.row
+  margin-left: 0 !important
+  margin-right: 0 !important
+
+.wpcpfq-title
+  font-size: 48px
+  line-height: 58px
+  text-align: center
+
+.wpcpfq-main
+  font-family: Lato
+  text-align: center
+  margin: auto
+
+.wpcpfq-disabled
+  opacity: .5 !important
+  cursor: not-allowed !important
+
+.wpcpfq-sweet-loading
+  position: fixed
+  top: 50%
+  left: 50%
+  margin-top: -50px
+  margin-left: -50px
+  width: 150px
+  height: 150px
+  text-align: center
+  p
+    font-size: 20px
+
+.select-control
+  height: 80px
+  border-radius: 0
+
+.wpcpq-btn-wrapper
+  display: flex
+  align-items: center
+  justify-content: center
+  
+  @media (max-width: $break-large)
+    min-height: 100px
+    margin-top: 10px
+  @media (max-width: $break-small)
+    min-height: 100px
+    margin-top: 10px
+
+.wpcpfq-content
+  @media (min-width: $break-large)
+    padding: 0 100px
+
+.wcpfq-faqbtn
+
+  @media (max-width: $break-small)
+    display: none
+      
+.wpcpfq-next-btn-top
+  margin-left: 15px
+  display: none !important
+
+  @media (max-width: $break-large)
+    display: inline-block !important
+  @media (max-width: $break-small)
+    display: inline-block !important
+
+.wpcpfq-next-btn-bottom
+  cursor: pointer
+
+  display: inline-block !important
+
+  @media (max-width: $break-large)
+    display: none !important
+  @media (max-width: $break-small)
+    display: none !important

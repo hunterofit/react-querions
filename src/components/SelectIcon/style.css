@@ -1,0 +1,18 @@
+.wpcpfq-icon-box {
+  padding: 0;
+  display: inline-flex !important;
+  margin: auto; }
+  .wpcpfq-icon-box li {
+    display: inline-block;
+    cursor: pointer;
+    list-style: none !important; }
+
+.wpcpfq-image-selected {
+  background-color: rgba(255, 255, 255, 0.27); }
+
+.wpcpfq-img-icon {
+  font-size: 100px !important;
+  line-height: 100px !important;
+  height: 100px !important;
+  width: 100px !important;
+  cursor: pointer; }

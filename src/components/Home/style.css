@@ -1,0 +1,74 @@
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.wpcpfq-title {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center; }
+
+.wpcpfq-main {
+  font-family: Lato;
+  text-align: center;
+  margin: auto; }
+
+.wpcpfq-disabled {
+  opacity: .5 !important;
+  cursor: not-allowed !important; }
+
+.wpcpfq-sweet-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 150px;
+  height: 150px;
+  text-align: center; }
+  .wpcpfq-sweet-loading p {
+    font-size: 20px; }
+
+.select-control {
+  height: 80px;
+  border-radius: 0; }
+
+.wpcpq-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media (max-width: 768px) {
+    .wpcpq-btn-wrapper {
+      min-height: 100px;
+      margin-top: 10px; } }
+  @media (max-width: 400px) {
+    .wpcpq-btn-wrapper {
+      min-height: 100px;
+      margin-top: 10px; } }
+
+@media (min-width: 768px) {
+  .wpcpfq-content {
+    padding: 0 100px; } }
+
+@media (max-width: 400px) {
+  .wcpfq-faqbtn {
+    display: none; } }
+
+.wpcpfq-next-btn-top {
+  margin-left: 15px;
+  display: none !important; }
+  @media (max-width: 768px) {
+    .wpcpfq-next-btn-top {
+      display: inline-block !important; } }
+  @media (max-width: 400px) {
+    .wpcpfq-next-btn-top {
+      display: inline-block !important; } }
+
+.wpcpfq-next-btn-bottom {
+  cursor: pointer;
+  display: inline-block !important; }
+  @media (max-width: 768px) {
+    .wpcpfq-next-btn-bottom {
+      display: none !important; } }
+  @media (max-width: 400px) {
+    .wpcpfq-next-btn-bottom {
+      display: none !important; } }

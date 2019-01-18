@@ -1,0 +1,8 @@
+@import url(../../../node_modules/normalize.css/normalize.css);
+@font-face {
+  font-family: FuturaBold;
+  src: url("/assets/fonts/futura/Futura Bold font.ttf"); }
+
+@font-face {
+  font-family: FuturaLight;
+  src: url("/assets/fonts/futura/Futura Light font.ttf"); }

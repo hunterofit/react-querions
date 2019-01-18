@@ -1,0 +1,49 @@
+development:  
+  job_data_url: /ref.json
+  career_browser_app_url: /browser/#/explorer
+  video_url: https://www.youtube.com/embed/MLeIBFYY6UY
+  text:
+    totorial_question: Here’s a quick tutorial on how to use this tool
+    job_title: WHICH JOB TITLE DO YOU WANT TO EXPLORE?
+    confirm_30: There have not been any career moves to or from this job in the past 15 years. If you still want to explore it, click Next. If not, go back.
+    job_path: WHERE IS THIS JOB ON YOUR PATH?
+    name: 'WHAT IS YOUR NAME?'
+    icon: 'CHOOSE YOUR PERSONAL ICON:'
+    unpack: HOW MUCH DO YOU WANT TO UNPACK?
+    go: READY TO CHART YOUR PATH?
+  icons:
+    - name: rocket
+      url: /assets/images/icon-rocket.png
+    - name: plane
+      url: /assets/images/icon-plane.png
+    - name: paper
+      url: /assets/images/icon-paper.png
+    - name: balloon
+      url: /assets/images/icon-balloon.png
+  publicPath: ''
+  card_size: 6
+
+production:
+  job_data_url: /wp-content/plugins/careerpathfinder/public/data/ref.json
+  career_browser_app_url: /browser/#/explorer
+  video_url: https://www.youtube.com/embed/MLeIBFYY6UY
+  text:
+    totorial_question: Here’s a quick tutorial on how to use this tool
+    job_title: WHICH JOB TITLE DO YOU WANT TO EXPLORE?
+    confirm_30: There have not been any career moves to or from this job in the past 15 years. If you still want to explore it, click Next. If not, go back.
+    job_path: WHERE IS THIS JOB ON YOUR PATH?
+    name: 'WHAT IS YOUR NAME?'
+    icon: 'CHOOSE YOUR PERSONAL ICON:'
+    unpack: HOW MUCH DO YOU WANT TO UNPACK?
+    go: READY TO CHART YOUR PATH?
+  icons:
+    - name: rocket
+      url: /assets/images/icon-rocket.png
+    - name: plane
+      url: /assets/images/icon-plane.png
+    - name: paper
+      url: /assets/images/icon-paper.png
+    - name: balloon
+      url: /assets/images/icon-balloon.png
+  publicPath: /wp-content/plugins/careerpathfinder/public/react-question
+  card_size: 6

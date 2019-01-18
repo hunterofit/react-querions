@@ -1,0 +1,25 @@
+.wcpfq-faqbtn {
+  margin-left: 15px; }
+
+.wcpfq-faq-tooltip {
+  position: absolute;
+  display: none;
+  width: 300px;
+  text-align: left;
+  background: #333333;
+  border: solid 1px #333333;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 9; }
+  .wcpfq-faq-tooltip ::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333333 transparent;
+    z-index: 9; }
+  .wcpfq-faq-tooltip span {
+    font-size: 12px; }
